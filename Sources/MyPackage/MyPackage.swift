@@ -2,7 +2,7 @@
 import UIKit
 
 extension Int {
-    func intToStringWithSeparator() -> String {
+    public func intToStringWithSeparator() -> String {
         let numberFormatter: NumberFormatter = {
             let formatter = NumberFormatter()
             formatter.numberStyle = .decimal
