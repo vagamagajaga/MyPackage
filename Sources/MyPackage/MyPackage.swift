@@ -21,7 +21,7 @@ public class Square {
         return side * side
     }
     
-    init(side: Int) {
+    public init(side: Int) {
         self.side = side
     }
 }
