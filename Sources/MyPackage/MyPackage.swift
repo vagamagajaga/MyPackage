@@ -14,4 +14,14 @@ extension Int {
     }
 }
 
-
+public class Square {
+    var side: Int
+    
+    func perimetr() -> Int {
+        return side * side
+    }
+    
+    init(side: Int) {
+        self.side = side
+    }
+}
