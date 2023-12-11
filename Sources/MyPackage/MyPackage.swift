@@ -15,9 +15,9 @@ extension Int {
 }
 
 public class Square {
-    var side: Int
+    public var side: Int
     
-    func perimetr() -> Int {
+    public func perimetr() -> Int {
         return side * side
     }
     
